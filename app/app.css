@@ -12,4 +12,19 @@ body {
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
   }
+  background-color: pink;
+
+}
+.background-pink{
+  background-color: pink;
+}
+.home-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url('/images/BackgroundHome.gif') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
