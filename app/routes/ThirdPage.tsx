@@ -5,10 +5,10 @@ import { motion } from 'framer-motion';
 import MotionWrapper from "~/Utilities/MotionWrapper";
 import {useNavigate} from "react-router";
 
-const ThankYouForComing: React.FC = () => {
+const ThirdPage: React.FC = () => {
     const navigate = useNavigate();
     const handleClick = () => {
-        navigate('/third-page');
+        navigate('/fourth-page');
     };
     useEffect(() => {
         // Dynamically load Tenor script on the client-side only
@@ -26,19 +26,19 @@ const ThankYouForComing: React.FC = () => {
         <div className="d-flex vh-100 justify-content-center align-items-center background-pink" style={{height: '100vh'}}>
             <div className="heart d-flex vh-100 justify-content-center align-items-center flex-column">
                 <MotionWrapper duration={1} delay={0.2}>
-                    <h1>Hello Pookie!</h1>
+                    <h1>I'm sure I had fun today, and I sure hope you did too!</h1>
                 </MotionWrapper>
 
                 <MotionWrapper duration={1} delay={0.7}>
                     <button className="btn btn-danger m-2 container-md" onClick={handleClick}>
-                        Hello!
+                        I did too!
                     </button>
                 </MotionWrapper>
                 <div className="tenor-gif-embed"
-                     data-postid="718364150893720585"
+                     data-postid="18383648778972099528"
                      data-share-method="host"
                      data-aspect-ratio="1"
-                     data-width="100%"
+                     data-width="50%"
                      style={{width: "100%", position: "relative"}}>
                 </div>
 
@@ -49,4 +49,4 @@ const ThankYouForComing: React.FC = () => {
     );
 };
 
-export default ThankYouForComing;
+export default ThirdPage;

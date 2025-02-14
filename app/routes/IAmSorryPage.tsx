@@ -26,16 +26,10 @@ const ThankYouForComing: React.FC = () => {
         <div className="d-flex vh-100 justify-content-center align-items-center background-pink" style={{height: '100vh'}}>
             <div className="heart d-flex vh-100 justify-content-center align-items-center flex-column">
                 <MotionWrapper duration={1} delay={0.2}>
-                    <h1>Hello Pookie!</h1>
-                </MotionWrapper>
-
-                <MotionWrapper duration={1} delay={0.7}>
-                    <button className="btn btn-danger m-2 container-md" onClick={handleClick}>
-                        Hello!
-                    </button>
+                    <h1>I am sorry you feel that way...</h1>
                 </MotionWrapper>
                 <div className="tenor-gif-embed"
-                     data-postid="718364150893720585"
+                     data-postid="4984662473790269249"
                      data-share-method="host"
                      data-aspect-ratio="1"
                      data-width="100%"
