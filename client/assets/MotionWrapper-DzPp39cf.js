@@ -1,0 +1,1 @@
+import{l as r}from"./chunk-IR6S3I6Y-MRIP6OGk.js";import{m as a}from"./proxy-TLT7V_7-.js";const p=({children:t,duration:i=.5,delay:o=0})=>r.jsx(a.div,{initial:{opacity:0},animate:{opacity:1},transition:{duration:i,delay:o},children:t});export{p as M};
